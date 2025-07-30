@@ -1,0 +1,99 @@
+.Productdetails{
+    width: 300px;
+    height: 500px;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.Productdetails img{
+    width: 300px;
+    height: 300px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.Productdetails img:hover{
+    
+    transform: scale(1.1);
+}
+
+.Nikedetails{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.Limited{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-size: 17px;
+    width: 115px;
+}
+
+.Limited1{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-size: 17px;
+    width: 90px;
+}
+
+.Limited2{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-size: 17px;
+    width: 140px;
+}
+
+.Productcard{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.Nike{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.Nikeair{
+    font-size: 18px;
+}
+
+.Price{
+    font-size: 20px;
+}
+
+.Css{
+    font-size: 15px;
+}
+
+.cs{
+    font-size: 15px;
+}
+
+.Bold{
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+.Add{
+    border: none;
+    width: 100px;
+    height: 40px;
+    padding: 10px 5px;
+    background-color: darkred;
+    outline: none;
+    color: white;
+    border-radius: 50px;
+}
+
+@media (max-width:500px){
+    .Productcard{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}

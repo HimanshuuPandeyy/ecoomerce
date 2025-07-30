@@ -1,0 +1,61 @@
+.slides{
+    margin-top: 70px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+ .brandcontent{
+    max-width: 600px;
+    height: 60px;
+    padding-left: 20px;
+    box-sizing: border-box;
+ }
+
+.brandcontent h1{
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: left;
+ }
+
+.imgslides{
+    display: flex;
+    gap: 10px;
+    animation: scroll 10s linear infinite;
+    width: max-content;
+}
+
+.nike {
+  width: 250px;
+  height: 150px;
+}
+
+.nike img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(-0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width:500){
+
+  .brandcontent h1{
+    font-size:4vw;
+  }
+
+  .nike{
+    width: 150px;
+    height: 200px;
+  }
+}

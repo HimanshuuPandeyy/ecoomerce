@@ -1,0 +1,22 @@
+.Signstrip{
+    margin-top: 20px;
+    width: 100vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+}
+
+.Recommendations{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.Tosign{
+    padding: 10px 30px;
+    background-color: yellow;
+    border-radius: 50px;
+    border: none;
+}
